@@ -10,7 +10,7 @@ import (
 var rootCmd = &cobra.Command{
     Use:   "awsss",
     Short: "AWS Security Scanner",
-    Long:  "A simple AWS Security Scanner tool to analyze AWS IAM roles.",
+    Long:  "A simple AWS Security Scanner (awsss) tool to analyze AWS IAM roles.",
 }
 
 func Execute() {
